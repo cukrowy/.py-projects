@@ -7,7 +7,7 @@ if a <= 0:
     print('aha')
 if a >= 1:
     for i in range(a):
-        zadania = random.randint(1, 3) #zmien 3 na 4 jak wymyslisz mnozenie
+        zadania = random.randint(1, 3) #jakos to mnozenie zrobie trust
         if zadania == 1:
             x = random.randint(1, 99)
             y = random.randint(1, 99)
@@ -77,3 +77,4 @@ if a >= 1:
 else:
     time.sleep(1)
     input("\n\nNaciśnij enter aby wyjść")
+
