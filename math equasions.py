@@ -13,6 +13,7 @@ for i in range(a):
     if odp == x + y:
         o = o + 1
         print("dobra odpowiedz")
+        os.system('cls')
     else:
         print("źle")
 time.sleep(0)
