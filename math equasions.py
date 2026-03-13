@@ -7,7 +7,7 @@ if a <= 0:
     print('aha')
 if a >= 1:
     for i in range(a):
-        zadania = random.randint(1, 4)
+        zadania = random.randint(1, 3) #zmien 3 na 4 jak wymyslisz mnozenie
         if zadania == 1:
             x = random.randint(1, 99)
             y = random.randint(1, 99)
@@ -38,6 +38,36 @@ if a >= 1:
                 print("Zła Odpowiedź")
                 time.sleep(1)
                 os.system('clear')
+        if zadania == 3:
+             x = random.randint(1, 100)
+             y = random.randint(1, 100)
+             os.system('clear')
+             odp = int(input(f'{x} - {y}?:  '))
+
+             if odp == x - y:
+                 o = o + 1
+                 print("Dobra Odpowiedz")
+                 time.sleep(1)
+                 os.system('clear')
+             else:
+                 print("Zła Odpowiedź")
+                 time.sleep(1)
+                 os.system('clear')
+        #if zadania == 4:
+             #x = random.randint(1, 100)
+             #y = random.randint(1, 10)
+             #os.system('clear')
+             #odp = int(input(f'{x} : {y}?:  '))
+
+             #if odp == x / y:
+                 #o = o + 1
+                 #print("Dobra Odpowiedz")
+                 #time.sleep(1)
+                 #os.system('clear')
+             #else:
+                 #print("Zła Odpowiedź")
+                 #time.sleep(1)
+                 #os.system('clear')
             
 time.sleep(0)
 if a >= 1:
