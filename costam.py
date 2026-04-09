@@ -1,3 +1,6 @@
+
+# DO NOT USE TS :SOB:
+
 import random
 import os 
 import time
