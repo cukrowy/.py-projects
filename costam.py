@@ -1,5 +1,5 @@
 
-# DO NOT USE TS :SOB:
+# DO NOT USE TS 😭
 
 import random
 import os 
