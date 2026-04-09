@@ -53,21 +53,22 @@ if a >= 1:
                  print("Zła Odpowiedź")
                  time.sleep(1)
                  os.system('clear')
-        #if zadania == 4:
-             #x = random.randint(1, 100)
-             #y = random.randint(1, 10)
-             #os.system('clear')
-             #odp = int(input(f'{x} : {y}?:  '))
+        if zadania == 4:
+            dzielnik = random.randint(1, 10)   
+            iloraz = random.randint(1, 10)  
+            dywidenda = dzielnik * iloraz     
 
-             #if odp == x / y:
-                 #o = o + 1
-                 #print("Dobra Odpowiedz")
-                 #time.sleep(1)
-                 #os.system('clear')
-             #else:
-                 #print("Zła Odpowiedź")
-                 #time.sleep(1)
-                 #os.system('clear')
+            answer = int(input(f" {dywidenda} ÷ {iloraz} = ").replace(" " ,""))
+
+            if answer == iloraz:
+                o = o + 1
+                print("Dobra Odpowiedz")
+                time.sleep(1)
+                os.system("cls")
+            else:
+                print("Zła Odpowiedź")
+                time.sleep(1)
+                os.system("cls")
             
 time.sleep(0)
 if a >= 1:
